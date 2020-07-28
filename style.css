@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+
+body {
+	font-family: 'Allerta Stencil', sans-serif;
+}
+
+.pricing {
+	background: url(../img/12.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 80px 0;
+	margin: 200px 0;
+}
+
+.pricing h2, .pricing p {
+	color: white;
+	text-align: center;
+}
+
+.pricing h2, .basic h3, .plus h3, .premium h3, .pricing a {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.container hr, .container-fluid hr {
+	height: 2px;
+	max-width: 200px;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+
+}
+
+.basic, .plus, .premium {
+	background: white;
+	text-align: center;
+	padding: 30px;
+}
+
+.basic p, .plus p, .premium p {
+	color: inherit;
+}
+
+.basic hr, .plus hr, .premium hr {
+	width: 100px;
+}
+
+.pricing .btn {
+	border-radius: 0;
+}
+.pricing .btn:hover {
+	color: #fff;
+	background-color: red;
+	border-color: red;
+}
+.basic p span, .plus p span, .premium p span {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.basic h3, .plus h3, .premium h3 {
+	font-size: 20px;
+}
+
+.plus {
+	-webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+ 	-moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.75); 
+	z-index: 1;
+	position: relative;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.pricing p {
+	margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+	.basic {
+		margin-right: -30px;
+		margin-top: 15px;
+	}
+	.premium {
+		margin-left: -30px;
+		margin-top: 15px; 
+	}
+	.plus {
+		padding-top: 45px;
+		padding-bottom: 45px;
+	}
+	.pricing {
+		background-attachment: fixed;
+	}
+}
+
+@media (max-width: 992px) {
+	.basic {
+		margin-bottom: 30px;
+	}
+	.plus {
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 992px) {
+	.logo-rocket img {
+		height: 170px;
+		width: 170px;
+	}
+	.logo-rocket .brand-name {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 992px) {
+	.exampl-carousel .item {
+		text-align: center;
+	}
+	.portfolio .project-name img {
+	margin: 0 auto; 
+	}
+	.portfolio .project-name hr {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	}
+}
+@media (max-width: 770px) {
+	.exampl-carousel #display img {
+		display: none;
+	}
+}
+
+header {
+	background: url(../img/3.jpg) no-repeat;
+	min-height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.navbar {
+	padding: 30px 0;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+}
+
+header .brand-name {
+	font-size: 80px;
+	color: white;
+
+}
+header .brand-name-subtext {
+	font-size: 30px;
+	color: white;
+}
+.below {
+	position: absolute;
+	bottom:20px;
+	width: 100%;
+	text-align: center;
+}
+.below i {
+	color: white;
+	font-size: 30px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	padding-top: 4px;
+}
+.logo a {
+	margin: 0;
+	font-size: 30px;
+}
+.nav-item {
+	padding: 0 7px;
+}
+
+.about-content {
+	padding: 30px;
+	text-align: center;
+}
+.about-content h1, h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 20px 0 10px 0;
+}
+.about-content p {
+	margin: 10px 0;
+
+}
+.about-content .fas {
+	font-size: 50px;
+}
+.find {
+	background: url(../img/14.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+.text-main {
+	font-size: 30px;
+	color: #fff;
+
+}
+.find .btn,
+.portfolio .project-name .btn {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 1px;
+	padding: 10px 25px;
+	letter-spacing: 1px;
+}
+.find .btn:hover,
+.portfolio .project-name .btn:hover {
+	color: red;
+}
+@media (max-width: 1024px) {
+	.find {
+		background-attachment: scroll;
+		background-position: center;
+		min-height: unset;
+		padding: 150px 0;
+	}
+	
+	.text-main {
+		font-size: 20px;
+	}		
+}
+.media-body {
+	padding-left: 15px;
+}
+.media-body ul {
+	padding-left: 15px;
+}
+.media-body li {
+	margin-bottom: 10px;
+}
+.process i {
+	font-size: 32px;
+	border: 3px solid #000;
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	line-height: 55px;
+	text-align: center;
+}
+.bg-grey {
+	background-color: #dbd8db;
+}
+.bg-top-sticky {
+	background-color: #212529;
+}
+nav .active {
+	color: #000 !important;
+	background-color: #fff;
+	padding: 10px 10px !important;
+	border-radius: 3px;	
+}
+.owl-team .item {
+	position: relative;
+}
+.owl-team .caption {
+	position: absolute;
+	width: 100%;
+	color: #fff;
+	opacity: 0.8;
+}
+.caption hr {
+	width: 15%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.inline {
+	list-style: none;
+}
+.caption a {
+	color: #fff;
+	opacity: 0.7;
+}
+.caption p {
+	margin-bottom: 5px;
+}
+.caption h3 {
+	margin-bottom: 2px;
+}
+.caption a:hover {
+	opacity: 1;
+}
+.owl-prev {
+	position: absolute;
+	left: 3px;
+	top: 0;
+	bottom: 0;
+}
+.owl-prev i {
+	background-color: red;
+	color: #fff !important;
+	padding: 10px;
+	opacity: 0.5;
+	font-size: 32px;
+}
+.owl-prev i:hover {
+	opacity: 1;
+}
+.owl-next {
+	position: absolute;
+	right: 3px;
+	top: 0;
+	bottom: 0;
+}
+.owl-next i {
+	background-color: red;
+	color: #fff !important;
+	padding: 10px;
+	opacity: 0.5;
+	font-size: 32px;
+}
+.owl-next i:hover {
+	opacity: 1;
+}
+.owl-nav button:hover {
+	background-color: transparent !important;
+}
+.owl-nav button:focus {
+	outline: 0 !important;
+}
+.long {
+	border-radius: 0px !important;
+	padding: 50px 0;
+	background-color: #212529;
+}
+.long:hover {
+	background-color: red;
+	border-color: red;
+}
+.footer {
+	background: url(../img/2.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 50px;
+}
+
+.footer h4,
+.footer p,
+.footer i {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+.footer p {
+	opacity: 0.8;
+}
+.footer h4 {
+	text-transform: uppercase;
+	opacity: 0.8;
+	font-weight: bold;
+}
+.footer .copy {
+	font-size: 14px;
+}
+
+.list-inline i {
+	font-size: 32px;
+	margin-bottom: 75px;
+	opacity: 0.8;
+}
+.list-inline i:hover {
+	opacity: 1;
+}
+.footer a {
+	color: #fff;
+	opacity: 0.8;
+}
+.footer a:hover {
+	opacity: 1;
+	text-decoration: none;
+}
+.bg-grey {
+	padding: 100px 0;
+}
+.exampl-carousel .pbg1 {
+	background: url(../img/20.jpg) no-repeat;
+	padding: 155px 0;
+	background-size: cover;	
+}
+.exampl-carousel .pbg2 {
+	background: url(../img/19.jpg) no-repeat;
+	padding: 155px 0;
+	background-size: cover;
+}
+.exampl-carousel .pbg3 {
+	background: url(../img/18.jpg) no-repeat;
+	padding: 155px 0;
+	background-size: cover;
+}
+.exampl-carousel .pbg4 {
+	background: url(../img/17.jpg) no-repeat;
+	padding: 155px 0;
+	background-size: cover;
+}
+.portfolio .project-name img {
+	width: auto !important; 
+}
+.portfolio .project-name h4 {
+	font-size: 48px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.portfolio .project-name p {
+	font-size: 18px;
+	color: #fff;
+}
+.portfolio .project-name hr {
+	margin: 20px auto 20px 0;
+}
+.portfolio .project-name .fas {
+	padding-left: 5px;
+}
+.recomend-carousel h4 {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.owl-theme .owl-nav {
+    margin-top: 0 !important;
+}
+.recomend-carousel p {
+	text-align: center;
+}
+.recomend-carousel .media img {
+	width: auto !important; 
+}
+.recomend i {
+	color: #f1c40f;
+}
+.recomend p {
+	margin-bottom: 30px;
+}
+.recomend .media-body h5,
+.recomend .media-body p {
+	margin-bottom: 0;
+}
+.recomend img {
+	border: 1px solid #dbd8db;
+	border-radius: 100%;
+}
